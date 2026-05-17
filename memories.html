@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Our Memories ❤️</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#fff0f5;
+      color:#333;
+      min-height:100vh;
+      padding:40px 20px;
+    }
+
+    h1{
+      text-align:center;
+      font-size:3rem;
+      color:#ff4d6d;
+      margin-bottom:40px;
+    }
+
+    .gallery{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:25px;
+      max-width:1200px;
+      margin:auto;
+    }
+
+    .photo{
+      background:white;
+      border-radius:20px;
+      overflow:hidden;
+      box-shadow:0 10px 20px rgba(0,0,0,0.15);
+      transition:0.4s;
+    }
+
+    .photo:hover{
+      transform:translateY(-10px) scale(1.03);
+    }
+
+    .photo img{
+      width:100%;
+      height:350px;
+      object-fit:cover;
+    }
+
+    .caption{
+      padding:15px;
+      text-align:center;
+      color:#ff4d6d;
+      font-size:1.1rem;
+      font-weight:bold;
+    }
+
+    .message{
+      max-width:800px;
+      margin:50px auto;
+      text-align:center;
+      font-size:1.3rem;
+      line-height:1.8;
+      color:#444;
+    }
+
+    .back{
+      display:block;
+      width:220px;
+      margin:40px auto;
+      text-align:center;
+      padding:15px;
+      background:#ff4d6d;
+      color:white;
+      text-decoration:none;
+      border-radius:40px;
+      font-size:1.1rem;
+      transition:0.3s;
+    }
+
+    .back:hover{
+      background:#ff1e4d;
+      transform:scale(1.05);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Music -->
+  <audio autoplay loop>
+    <source src="music/love-song.mp3" type="audio/mp3">
+  </audio>
+
+  <h1>Our Beautiful Memories ❤️</h1>
+
+  <div class="gallery">
+
+    <div class="photo">
+      <img src="images/pic1.jpg" alt="">
+      <div class="caption">Your beautiful smile 😍</div>
+    </div>
+
+    <div class="photo">
+      <img src="images/pic2.jpg" alt="">
+      <div class="caption">One of my favorite memories ❤️</div>
+    </div>
+
+    <div class="photo">
+      <img src="images/pic3.jpg" alt="">
+      <div class="caption">Every moment with you is special 💕</div>
+    </div>
+
+    <div class="photo">
+      <img src="images/pic4.jpg" alt="">
+      <div class="caption">Forever us 💖</div>
+    </div>
+
+  </div>
+
+  <div class="message">
+    Thank you for making this year the happiest year of my life.
+    No matter where life takes us, I will always cherish every memory we created together.
+    I love you more than words can ever explain ❤️
+  </div>
+
+  <a href="index.html" class="back">Back to Home ❤️</a>
+
+</body>
+</html>
+```
